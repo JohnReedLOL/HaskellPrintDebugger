@@ -37,9 +37,9 @@ Instructions (without Cabal):
 
 Instructions (without Cabal):
 
-cabal update
-cabal install split
-cabal install print-debugger
+1. cabal update
+2. cabal install split
+3. cabal install print-debugger
 
 ^ Don't forget to include both "split" and "print-debugger" in the cabal file
 ____________________________________________________________________________________________________________________
