@@ -1,5 +1,5 @@
 # HaskellPrintDebugger
-Prints lines with IDE friendly stack traces in Haskell.
+Prints lines with IDE friendly stack traces in Haskell (now with IDE friendly fatal assertions).
 
 ____________________________________________________________________________________________________________________
 
@@ -13,30 +13,41 @@ foobar in thread "1" :
 
 See screenshot: http://i.imgur.com/KCXYHNk.png
 
+-- New fatal assert feature: http://i.imgur.com/Ii62NJP.png
+
+
 ____________________________________________________________________________________________________________________
 
 Dependencies:
 
-- None (except for "split" package in .cabal). Automatically imports on "cabal install print-debugger".
+- None (except for "split" package in .cabal). 
+- 
+- Must specify "build-depends:   base, split, print-debugger" in .cabal file.
 
 ____________________________________________________________________________________________________________________
 
-Instructions:
+Instructions (without Cabal):
 
-1. Add the file "StackTraceDebug.hs" to your Haskell project.
-2. Add "import StackTraceDebug" if you want to call the function
+1. Simply Add the file "StackTraceDebug.hs" to your Haskell project.
+2. Add "import Dugug.Print.StackTraceDebug" if you want to call the function.
 3. Call "debugTraceIO" with any String argument.
 4. When you are done, remove or comment out all calls to debugTraceIO.
-5. Optionally, set value "debugMode" to "False" in "StackTraceDebug.hs" to mute all calls to "debugTraceIO".
+5. Optionally, set value "debugMode" to "False" in "StackTraceDebug.hs" to mute all calls to "debugTraceIO" and disable all fatal assertions.
 
+Instructions (without Cabal):
+
+cabal update
+cabal install split
+cabal install print-debugger
+
+^ Don't forget to include both "split" and "print-debugger" in the cabal file
 ____________________________________________________________________________________________________________________
 
 Benefits:
 
 - Does not require to be compiled with "-prof"
-- Easier to locate your print statements
-- Location of print statement can be highlighted in an IDE
-- Easy to turn print statemments on/off without having to manually uncomment each one.
+- Easier to locate your print statements (and assertions). Location of print statement (and assertions) can be highlighted in an IDE
+- Easy to turn print statemments (and assertions) on/off without having to manually uncomment each one.
 - CC0 (Free to use, share, or modify, even commercially)
 
 ____________________________________________________________________________________________________________________
