@@ -85,3 +85,14 @@ http://stackoverflow.com/questions/35354153/haskell-cannot-import-ghc-srcloc
 (but compiles fine on Windows with "ghc StackTraceDebug.hs -Wall -Werror -XImplicitParams")
 
 To report or pinpoint bugs, email johnmichaelreedfas@gmail.com
+
+____________________________________________________________________________________________________________________
+
+More info:
+
+https://www.reddit.com/r/haskell/comments/45jfk8/my_first_package_enhanced_poor_mans_debugging/
+
+https://www.reddit.com/r/haskell/comments/45jfk8/my_first_package_enhanced_poor_mans_debugging/
+
+
+
