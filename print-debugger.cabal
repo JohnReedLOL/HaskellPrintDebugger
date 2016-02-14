@@ -1,5 +1,5 @@
 Name:                print-debugger
-Version:             1.1.7
+Version:             1.1.8
 Stability:           beta
 Description:         Print debugging with stack trace for Haskell (formatted for ease 	                   of use). See screenshot: http://i.imgur.com/KCXYHNk.png
 Synopsis:            Debug print formatting library.
