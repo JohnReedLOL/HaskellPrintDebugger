@@ -20,8 +20,9 @@ ________________________________________________________________________________
 
 Dependencies:
 
+
 - None (except for "split" package in .cabal). 
-- 
+
 - Must specify "build-depends:   base, split, print-debugger" in .cabal file.
 
 ____________________________________________________________________________________________________________________
