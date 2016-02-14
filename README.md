@@ -90,6 +90,8 @@ ________________________________________________________________________________
 
 More info:
 
+http://hackage.haskell.org/package/print-debugger
+
 https://www.reddit.com/r/haskell/comments/45jfk8/my_first_package_enhanced_poor_mans_debugging/
 
 https://github.com/JohnReedLOL/HaskellPrintDebugger/edit/master/README.md
