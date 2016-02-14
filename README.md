@@ -80,7 +80,7 @@ Sample ".cabal" file:
 
 >   hs-source-dirs:  src
 
->   build-depends:   base, split
+>   build-depends:   base, split, print-debugger
 
 Sample compilation: 
 
