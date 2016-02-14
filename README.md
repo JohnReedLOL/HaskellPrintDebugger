@@ -37,7 +37,7 @@ Benefits:
 - Easier to locate your print statements
 - Location of print statement can be highlighted in an IDE
 - Easy to turn print statemments on/off without having to manually uncomment each one.
-- Public Domain
+- CC0 (Free to use, share, or modify, even commercially)
 
 ____________________________________________________________________________________________________________________
 
