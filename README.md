@@ -92,7 +92,7 @@ More info:
 
 https://www.reddit.com/r/haskell/comments/45jfk8/my_first_package_enhanced_poor_mans_debugging/
 
-https://www.reddit.com/r/haskell/comments/45jfk8/my_first_package_enhanced_poor_mans_debugging/
+https://github.com/JohnReedLOL/HaskellPrintDebugger/edit/master/README.md
 
 
 
