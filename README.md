@@ -30,7 +30,7 @@ ________________________________________________________________________________
 Instructions (without Cabal):
 
 1. Simply Add the file "StackTraceDebug.hs" to your Haskell project.
-2. Add "import Dugug.Print.StackTraceDebug" if you want to call the function.
+2. Add "import Debug.Print.StackTraceDebug" if you want to call the function.
 3. Call "debugTraceIO" with any String argument.
 4. When you are done, remove or comment out all calls to debugTraceIO.
 5. Optionally, set value "debugMode" to "False" in "StackTraceDebug.hs" to mute all calls to "debugTraceIO" and disable all fatal assertions.
